@@ -1,5 +1,5 @@
 # Compiler
-A MIPS compiler for the Tiger language
+A MIPS compiler for the Tiger language created by Andrew Appel.
 
 ## Pre-requisite:
 This compiler is written in SML (Standard ML of New Jersey) v110.99. Get the latest version here: https://www.smlnj.org/.
