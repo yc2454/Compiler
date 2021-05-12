@@ -17,5 +17,5 @@ Then, type `CM.make "sources.cm"` to compiler the modules.
 Now, assembly for the Tiger language can be generated using the function `Main.compile`. For example, to compiler the program `queens.tig` which solves the 8 Queens Problem, simply type `Main.compile queens.tig`, and an MIPS assembly file `queens.s` will be generated in the same directory.
 
 ## Features:
-  - Tiger is a typed language and our compiler does type checking. If there is a syntax error, an error message will be generated.
+  - Tiger is a typed language and our compiler does type checking. If there is a typing error, an error message will be generated.
   - Our compiler also does bounds checking for array subscriptions. If the index is larger than the size of the array or smaller than 0, the program will instantly exit.
